@@ -1,0 +1,19 @@
+.huge-space {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.page-width {
+    max-width: 800px;
+    margin: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
