@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <title>My Projects</title>
-    </head>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>My Projects</title>
+</head>
 
-    <body>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-            <div class="container page-width">
-                <a
-                    href="index.html"
-                    class="navbar-brand mb-0 h1">Portfolio</a>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
 
-                <botton
+            <a href="index.html" class="navbar-brand mb-0 h1 text-teal" style="font-weight:700">Portfolio</a>
+
+            <button
                     class="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
@@ -26,118 +29,112 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation">
 
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
+            </button>
 
-                </botton>
-
-                <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav" style="float:right">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="index.html" class="nav-link">
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="projects.html" class="nav-link active">
-                                Projects
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="about.html" class="nav-link">
-                                About
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="contact.html" class="nav-link">
-                                Contact
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-        </nav>
+        <div class="container mt-5">
 
-        <div class="huge-space">
+            <h1 class="text-center mb-5 text-white" style="font-weight: 800; letter-spacing: -1px;">
+                MY <span class="text-teal">PROJECTS</span>
+            </h1>
 
-            <div class="container jumbotron page-width" style="background-color: white;">
-                <div class="container mt-5">
+            <div class="row">
 
-                    <h1 class="text-center mb-5">My Projects</h1>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm" style="background-color: #2d2d30; border: none;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-teal mb-3">
+                                <i class="fas fa-code fa-2x"></i>
+                            </h5>
+                            <h4 class="text-white mb-3" style="font-weight: 700;">C Algorithms</h4>
 
-                    <div class="row">
+                            <p class="card-text" style="color: #a0a0a0;">
+                                A collection of optimized C programs including Prime Number checkers,
+                                Pascal's Triangle, and complex array manipulation loops.
+                            </p>
 
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-body">
-                                    <h5 class="card-title"><i class="fas fa-code"></i> C Algorithms</h5>
-                                    <p class="card-text">
-                                        A collection of optimized C programs including Prime Number checkers,
-                                        Pascal's Triangle, and complex array manipulation loops.
-                                    </p>
-                                    <a href="#" class="btn btn-outline-primary btn-sm">View Code</a>
-                                </div>
-                            </div>
+                            <a href="#" class="btn btn-outline-teal btn-sm mt-3">View Code</a>
                         </div>
-
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-body">
-                                    <h5 class="card-title"><i class="fas fa-paint-brush"></i> UI Design Assets</h5>
-                                    <p class="card-text">
-                                        Created 3D low-poly art assets for a "Cookie Company" app,
-                                        focusing on branding and immersive "Chocolate Valley" backgrounds.
-                                    </p>
-                                    <a href="#" class="btn btn-outline-success btn-sm">See Designs</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-body">
-                                    <h5 class="card-title"><i class="fab fa-python"></i> Python Scripts</h5>
-                                    <p class="card-text">
-                                        Utility scripts developed for data validation and string operations,
-                                        focusing on clean syntax and error handling.
-                                    </p>
-                                    <a href="#" class="btn btn-outline-warning btn-sm">View Scripts</a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm" style="background-color: #2d2d30; border: none;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-teal mb-3">
+                                <i class="fas fa-paint-brush fa-2x"></i>
+                            </h5>
+                            <h4 class="text-white mb-3" style="font-weight: 700;">UI Design Assets</h4>
+
+                            <p class="card-text" style="color: #a0a0a0;">
+                                Created 3D low-poly art assets for a "Cookie Company" app,
+                                focusing on branding and immersive "Chocolate Valley" backgrounds.
+                            </p>
+
+                            <a href="#" class="btn btn-outline-teal btn-sm mt-3">See Designs</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm" style="background-color: #2d2d30; border: none;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-teal mb-3">
+                                <i class="fab fa-python fa-2x"></i>
+                            </h5>
+                            <h4 class="text-white mb-3" style="font-weight: 700;">Python Scripts</h4>
+
+                            <p class="card-text" style="color: #a0a0a0;">
+                                Utility scripts developed for data validation and string operations,
+                                focusing on clean syntax and error handling.
+                            </p>
+
+                            <a href="#" class="btn btn-outline-teal btn-sm mt-3">View Scripts</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <footer class="bg-dark text-center text-white py-2">
-            <div>
-                <a href="https://github.com/BheeshamKS" class="btn btn-basic text-white">
-                    <i class="fab fa-github"></i>
-                </a>
+    <footer class="text-center text-white py-4">
+        <div>
+            <a href="https://github.com/BheeshamKS" target="_blank" class="btn btn-basic text-white">
+                <i class="fab fa-github"></i>
+            </a>
 
-                <a href="https://linkedin.com/in/bheeshamks/" class="btn btn-basic text-white">
-                    <i class="fab fa-linkedin"></i>
-                </a>
+            <a href="https://linkedin.com/in/bheeshamks/" target="_blank" class="btn btn-basic text-white">
+                <i class="fab fa-linkedin"></i>
+            </a>
 
-                <a href="https://instagram.com/polyblend_3d/" class="btn btn-basic text-white">
-                    <i class="fab fa-instagram"></i>
-                </a>
+            <a href="https://instagram.com/polyblend_3d/" target="_blank" class="btn btn-basic text-white">
+                <i class="fab fa-instagram"></i>
+            </a>
 
-                <a href="mailto:bheesham5564@gmail.com" class="btn btn-basic text-white">
-                    <i class="fas fa-envelope"></i>
-                </a>
+            <a href="mailto:bheesham5564@gmail.com" target="_blank" class="btn btn-basic text-white">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
 
-            </div>
-
-        </footer>
-
-    </body>
+</body>
 </html>

@@ -1,17 +1,122 @@
+.navbar {
+    background-color: #191e22 !important;
+}
+
+.navbar-brand {
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #a0a0a0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #41e8fd !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+    color: #41e8fd !important;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: #a0a0a0 !important;
+    font-size: 1.5rem;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    color: #41e8fd !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 .huge-space {
     margin-top: 70px;
     margin-bottom: 20px;
 }
 
-.page-width {
-    max-width: 800px;
-    margin: auto;
-}
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: calc(100vh - 100px);
+    max-width: none;
+
+    margin: 50px;
+
+    background-color: #191e22;
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px; /* Shrinks the gap on mobile */
+        min-height: calc(100vh - 20px);
+    }
+}
+
+h1, h2, h3, h4, h5, .navbar-brand, .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    padding-top: 20;
+    padding-bottom: 20;
+}
+
+.text-teal {
+    color: #41e8fd;
+}
+
+.btn-teal {
+    background-color: #41e8fd;
+    color: #1a1a1d;
+    border: none;
+    font-weight: 800;
+}
+
+.btn-teal:hover {
+    color: #ffffff;
+    border: none;
+    font-weight: 800;
+    transition: color 0.3s ease;
+}
+
+.btn-outline-teal {
+    border: 2px solid #41e8fd;
+    color: #41e8fd;
+    font-weight: 800;
+}
+
+.btn-outline-teal:hover {
+    color: #ffffff;
+    font-weight: 800;
+    transition: color 0.3s ease;
+}
+
+.no-decoration {
+    text-decoration-line: none !important;
 }
 
 footer {
