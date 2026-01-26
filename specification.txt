@@ -1,0 +1,23 @@
+HTML Tags Used:
+1. <nav> - For the main navigation bar.
+2. <div> - For structuring the grid and layout.
+3. <a> - For hyperlinks between pages.
+4. <button> - For the mobile hamburger menu toggle.
+5. <i> - For Font Awesome icons.
+6. <h1>, <h2>, <h4> - For headings.
+7. <p> - For paragraph text.
+8. <img> - For the profile picture.
+9. <form> - For the contact page input area.
+10. <input> - For the user's name and email fields.
+11. <footer> - For the social links section at the bottom.
+
+CSS Properties Used:
+1. background-color - To set the dark theme background.
+2. color - To set text colors (white, teal, grey).
+3. margin / padding - To create spacing and the "floating card" effect.
+4. border-radius - To round the corners of images and cards.
+5. z-index - To ensure the loader overlay sits on top of everything.
+6. transition - To smooth out hover effects.
+
+JavaScript & Bootstrap Usage:
+I used Bootstrap 5 for the responsive grid system (rows/cols) and the Navbar component. I used JavaScript to create a full-screen loading animation that fades out upon page load, and to create an event listener on the contact form that triggers an alert instead of refreshing the page.
