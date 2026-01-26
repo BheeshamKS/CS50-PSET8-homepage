@@ -1,42 +1,27 @@
-# Personal Portfolio - Bheesham K. Sajnani
+# CS50 Problem Set 8 - Homepage
 
-> A responsive, dark-themed portfolio website showcasing my journey in Data Science, 3D Animation, and Computer Science (CS50).
+This repository contains my solution for the "Homepage" problem from Harvard's CS50 course. The project involves creating a comprehensive, multipage personal portfolio website using HTML, CSS, JavaScript, and the Bootstrap 5 framework.
 
-![Project Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
+## Files
 
-## Overview
+`index.html` : The landing page containing the "Hero" section, introduction, and navigation to other areas of the site.
 
-This repository contains the source code for my personal portfolio website. It serves as a digital home to display my projects in C, Python, and Web Development, as well as my background in Operating Systems and 3D Art.
+`projects.html` : A gallery page displaying my work in C, Python, and UI Design using responsive Bootstrap cards.
 
-The design focuses on a modern **"Dark Mode" aesthetic** (Deep Charcoal & Electric Teal), utilizing a floating card layout that stands out from standard full-width websites.
+`about.html` : A personal page detailing my background, including interests in Operating Systems, 3D Animation, and Coding.
 
-## Live Demo
+`contact.html` : A functional interface allowing users to send messages via a simulated form and view social media links.
 
-**View Live Site:** [https://bheeshamks.github.io/CS50-PSET8-homepage/index.html](https://bheeshamks.github.io/CS50-PSET8-homepage/index.html)
+`styles.css` : The custom stylesheet that overrides Bootstrap defaults to create the "Dark/Teal" theme, floating card layout, and animations.
 
-## Tech Stack
+## Description
 
-* **Frontend Framework:** [Bootstrap 5.3](https://getbootstrap.com/) (Grid system, Components, Utilities)
-* **Styling:** HTML5, CSS3 (Custom animations, Floating layout, Neon effects)
-* **Icons:** [Font Awesome 5](https://fontawesome.com/)
-* **Fonts:** Google Fonts (Montserrat & Open Sans)
-* **Scripting:** Vanilla JavaScript (Loader, Form validation)
+The website is designed with a unified "Dark Mode" aesthetic (Deep Charcoal & Electric Teal) and demonstrates mastery of grid layouts and responsive design:
 
-## Key Features
+- **Global Navigation:**
+  - A consistent Bootstrap Navbar is present on all pages.
+  - Features a custom FontAwesome hamburger menu for mobile devices.
+  - The "Active" state highlights the current page link in Electric Teal.
 
-* **🌑 Custom Dark Theme:** A carefully curated color palette featuring `#191e22` (Charcoal) and `#41e8fd` (Electric Teal).
-* **📱 Fully Responsive:** Optimized for all devices using Bootstrap's grid system. Includes a custom hamburger menu for mobile.
-* **🔄 Page Loader:** A custom JavaScript loading screen with a teal spinner animation to ensure smooth transitions.
-* **🔘 Interactive UI:** Custom button hover effects, floating cards, and smooth scrolling.
-* **📧 Contact Simulation:** A JavaScript-powered contact form that validates inputs and simulates message sending.
-
-## 📂 Project Structure
-
-```text
-├── index.html       # Hero Section & Introduction
-├── about.html       # Detailed "About Me" & Hobbies
-├── projects.html    # Showcase of Coding & Design work
-├── contact.html     # Contact Form & Social Links
-├── styles.css       # Custom CSS overrides & Theming
-└── README.md        # Project Documentation
+- **Responsive Layout:**
+  - **Desktop:** The content "floats" in the center of the screen with a 50px margin, creating a modern card effect.
