@@ -5,7 +5,6 @@ This repository contains my solution for the "Homepage" problem from Harvard's C
 ## Links
 
 - **Live Site:** [https://bheeshamks.github.io/CS50-PSET8-homepage/index.html](https://bheeshamks.github.io/CS50-PSET8-homepage/index.html)
-- **Video Demo:** [Insert your YouTube or Loom video link here]
 
 ## Files
 
