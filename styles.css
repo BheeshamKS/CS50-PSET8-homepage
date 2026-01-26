@@ -1,3 +1,39 @@
+/*loading*/
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191e22;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+.loader-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #2d2d30;
+    border-top: 5px solid #41e8fd;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
 .navbar {
     background-color: #191e22 !important;
 }
@@ -70,7 +106,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        margin: 10px; /* Shrinks the gap on mobile */
+        margin: 10px;
         min-height: calc(100vh - 20px);
     }
 }
